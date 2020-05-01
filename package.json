@@ -7,8 +7,9 @@
   "license": "MIT",
   "keywords": [
     "gatsby",
-    "starter",
-    "typescript"
+    "reactjs",
+    "typescript",
+    "react-hooks"
   ],
   "scripts": {
     "start": "gatsby develop",
