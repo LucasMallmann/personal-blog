@@ -17,6 +17,7 @@
   "plugins": ["react", "react-hooks", "jsx-a11y", "prettier"],
   "extends": ["plugin:react/recommended", "airbnb", "prettier/react"],
   "rules": {
+    "arrow-body-style": "off",
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
@@ -49,14 +50,7 @@
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-var-requires": "off",
-        "@typescript-eslint/quotes": [
-          2,
-          "backtick",
-          {
-            "avoidEscape": true
-          }
-        ]
+        "@typescript-eslint/no-var-requires": "off"
       }
     }
   ],

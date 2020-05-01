@@ -2,7 +2,9 @@ import React from 'react';
 
 import Title from '@/components/Title';
 
-const Home: React.FC<{}> = () => {
+// import { Container } from './styles';
+
+const Home: React.FC = () => {
   return (
     <main>
       <Title />
