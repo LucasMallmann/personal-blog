@@ -20,5 +20,5 @@
   },
   "exclude": ["node_modules"],
   "include": ["./src/**/*"],
-  "files": ["src/styles/styled.d.ts"]
+  "files": ["src/styles/styled.d.ts", "src/@types/import-images.d.ts"]
 }

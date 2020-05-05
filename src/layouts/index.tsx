@@ -5,7 +5,10 @@ import GlobalStyles from '@/styles/global';
 
 import theme from '@/styles/themes/default';
 
-const Wrapper = styled.div``;
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+import { Content } from './styles';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -13,13 +16,12 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <h1>some shit</h1>
-      <Wrapper>
-        <ThemeProvider theme={theme}>{children}</ThemeProvider>
-      </Wrapper>
-    </>
+      <Content>{children}</Content>
+      <Header />
+      <Footer />
+    </ThemeProvider>
   );
 };
 
