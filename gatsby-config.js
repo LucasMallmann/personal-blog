@@ -1,3 +1,4 @@
+const { resolve } = require('path');
 const siteMetadata = require('./config/metadata');
 
 module.exports = {
@@ -31,7 +32,7 @@ module.exports = {
         background_color: '#f7f0eb',
         theme_color: '#EF476F',
         display: 'standalone',
-        icon: 'src/assets/icon.png',
+        icon: resolve('src', 'assets', 'icon.png'),
       },
     },
     {
@@ -56,12 +57,22 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-routes',
       options: {
-        // this is the path to your routes configuration file
-        path: `${__dirname}/src/routes.js`,
+        path: resolve(__dirname, 'src', 'routes.js'),
+      },
+    },
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'posts',
+        path: `${__dirname}/content/posts`,
       },
     },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-layout',
+    'gatsby-plugin-catch-links',
+    'gatsby-transformer-remark',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-offline',
   ],
 };
