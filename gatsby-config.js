@@ -61,13 +61,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'posts',
-        path: `${__dirname}/content/posts`,
-      },
-    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-layout',
     'gatsby-plugin-catch-links',
