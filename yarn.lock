@@ -3161,7 +3161,7 @@ chokidar@3.4.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-chokidar@^2.0.4, chokidar@^2.1.2, chokidar@^2.1.8:
+chokidar@^2.0.4, chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
   integrity sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
@@ -6086,6 +6086,11 @@ gatsby-plugin-catch-links@^2.3.1:
     "@babel/runtime" "^7.9.6"
     escape-string-regexp "^1.0.5"
 
+gatsby-plugin-dynamic-routes@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-dynamic-routes/-/gatsby-plugin-dynamic-routes-1.0.0.tgz#94c5593078f17dfdd76eb681804a26a7e1c24951"
+  integrity sha512-n0VoUjlOh+S2xFsrjS+qnKNl1Ej64PoLNXDEXXw4YLJ3ln1N+1goSEzG8tECgJrCGO91Ezc1UkEydB7QakGG+Q==
+
 gatsby-plugin-layout@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-1.3.0.tgz#5ed5574cb08b36735a74073629f9f51c95463716"
@@ -6185,14 +6190,6 @@ gatsby-plugin-react-helmet@^3.3.1:
   integrity sha512-DZ/IWs+zlGL8N3JAcewPJJUPkl1st6/hIWQ3YphKoTK64DUIoMd2wWSJCrC6LiurS7knGHa4pdGyc5clwV1EKA==
   dependencies:
     "@babel/runtime" "^7.9.6"
-
-gatsby-plugin-routes@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-routes/-/gatsby-plugin-routes-1.0.0.tgz#10a01ae6fc331cd545eee8eb6508b0478b45f82e"
-  integrity sha512-KVaDkqiENKLzDM5PaZiVkyXDhuWgqd9XmMv5aeVyMNFdrFYSVpngxI7egJWUeHyWxIucKHAqlb3SJw6TyxXWhg==
-  dependencies:
-    chokidar "^2.1.2"
-    core-js "^2.6.5"
 
 gatsby-plugin-sitemap@^2.4.1:
   version "2.4.1"

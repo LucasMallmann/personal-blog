@@ -1,9 +1,6 @@
-// In your routes configuration file
-const path = require('path');
-
-module.exports = [
-  {
+module.exports = {
+  home: {
     path: '/',
-    component: path.resolve('src/pages/home/index.tsx'),
+    component: 'src/pages/home/index.tsx',
   },
-];
+};
