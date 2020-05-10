@@ -54,12 +54,6 @@ module.exports = {
         siteUrl: 'https://www.example.com',
       },
     },
-    {
-      resolve: 'gatsby-plugin-dynamic-routes',
-      options: {
-        routeFilePath: 'src/Routes.js',
-      },
-    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-layout',
