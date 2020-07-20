@@ -52,7 +52,7 @@
     "gatsby-plugin-typescript": "^2.3.1",
     "gatsby-source-filesystem": "^2.3.1",
     "gatsby-transformer-remark": "^2.8.7",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "netlify-cms-app": "^2.12.12",
     "polished": "^3.6.1",
     "react": "^16.13.1",
